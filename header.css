@@ -1,0 +1,13 @@
+.perfil {
+    grid-column: 1/5;
+    display: flex;
+}
+.perfil img {
+    width: 6rem;
+    border: 1px solid gray;
+    border-radius: 100%;
+    background-color: plum;
+}
+.perfil h2 {
+    font-size: 2rem;
+}

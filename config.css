@@ -5,17 +5,14 @@
 }
 
 html {
-    font-size: 1opx;
+    font-size: 10px;
     font-family: monospace;
 }
 
 main {
     width: 100%;
+    max-width: 40rem;
+    margin: auto;
     display: grid;
-    grid-template-columns: 40rem 1fr;
-    grid-template-rows: 1fr;
-}
-
-main section {
-    border: 1px solid black;
+    grid-template-columns: repeat(4, 1fr);
 }
